@@ -9,7 +9,7 @@ import LoginPopup from './components/LoginPopup/LoginPopup'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
   const [showlogin,setShowlogin]=useState(false)
   return (
     <>
