@@ -19,10 +19,10 @@ const FoodItem = ({id,name,price,description,image}) => {
                 <p>{cartItems [id]}</p>
                 <img onClick={()=>addToCart(id)} src={assets.add_icon_green} alt="" />
                 </div>
-
+ 
             }
-        </div>
-        <div className='food-item-info'>
+         </div>
+         <div className='food-item-info'>
             <div className='food-item-name-rating'>
                 <p>{name}</p>
                 <img src={assets.rating_starts} alt="" />
